@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  background: url(../img/bg.jfif) center/cover no-repeat fixed;
+  background: url(../img/bg.jpg) center/cover no-repeat fixed;
   /* opacity: 0.9; */
 }
 .title-underline {
@@ -25,7 +25,6 @@ body {
   background: url(../img/about-bcg.jpeg);
   background-size: 100%;
   background-position: center;
-
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
 }
@@ -35,24 +34,31 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
     url(../img/projects-1.jpeg) center/cover no-repeat fixed;
 } */
-
 #filler {
-  background: radial-gradient(white, white, darkgrey);
+  background: linear-gradient(white, white, grey);
 }
-
-#filler2 {
-  background: radial-gradient(white, rgb(255, 255, 255), rgb(12, 39, 12));
-}
-
+/* #filler2 {
+  background: linear-gradient(white, white, wheat);
+} */
 .bg-challenge {
   background: radial-gradient(white, white, lightblue);
 }
-
 .font {
   font-size: 2rem;
 }
-
 #logomain {
   width: auto;
   height: 40px;
+}
+
+.border1 {
+  border: 8px ridge grey;
+
+  border-radius: 15%;
+  background: linear-gradient(white, lightgray);
+}
+
+.border2 {
+  border: 3px groove white;
+  border-radius: 20%;
 }
